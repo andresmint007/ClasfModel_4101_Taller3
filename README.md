@@ -9,30 +9,20 @@ Oscar Duvan Giraldo Romero  &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;  202324939   <br>
 Estructura de carpetas:<br>
 Taller3 <br>
 ├── Api<br>
-└── main.py<br>
-└── model.py<br>
-└── shapValues.py<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── main.py<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── model.py<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── shapValues.py<br>
 ├── Archivos<br>
-└── churn_historic.json<br>
-└── churn_future.json<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── churn_historic.json<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── churn_future.json<br>
 ├── Models<br>
-└── DecisionTreeBest.joblib<br>
-└── Gxboost.joblib<br>
-└── LogisticRegression.joblib<br>
-└── NeuronalNewtwork.joblib<br>
-└── RandomForest.joblib<br>
-└── Clasificacion_Churn.ipynb<br>
-└── A/B_testing.ipynb<br>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── base_ventas.xlsx (No incluido, Material Sensible,Disponible en el enlace adjunto) <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── COMPRAS 2023 Dashboard.xlsm (No incluido, Material Sensible,Disponible en el enlace adjunto)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── Dataset_Operacion_Anual.csv (No incluido, Material Sensible,Disponible en el enlace adjunto)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── base_ventas.xlsx (No incluido, Material Sensible,Disponible en el enlace adjunto)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── BodegasSAP.xlsx (No incluido, Material Sensible,Disponible en el enlace adjunto)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── DatosCQ.xlsx (No incluido, Material Sensible,Disponible en el enlace adjunto)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── INFORMACION INVENTARIO Y VENTAS 22-09-2023.xlsx (No incluido, Material Sensible,Disponible en el enlace adjunto)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── INVENTARIO (CODIGO DE PRODCUTOS).xlsx (No incluido, Material Sensible,Disponible en el enlace adjunto)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── arima.csv (No incluido, Material Sensible,Disponible en el enlace adjunto)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── DecisionTreeBest.joblib<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── Gxboost.joblib<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── LogisticRegression.joblib<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── NeuronalNewtwork.joblib<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── RandomForest.joblib<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── Clasificacion_Churn.ipynb<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── A/B_testing.ipynb<br>
 
 # Api:
 La api se construyo con FastAPI mediante codigo python, la Api maneja dos metodos POST, el primero es /{model_version}/predict en este metodo se puede variar entre 1 y 2, cuando se realiza la consulta este devuelve un JSON con la predicción y el resultado de Churn y el metodo /{model_version}/explain en este metodo se explica el peso de las variables en un Shap.
