@@ -74,7 +74,6 @@ def ModelsclassifyExplain(model_version: float,  datas: List[ChurnModel]):
         ]
     else:
         result_dict_list = "Modelo no definido, la version explain solo esta definida para el mejor modelo, el 1"
-
     return result_dict_list
 
 
