@@ -32,4 +32,6 @@ Este cuaderno de trabajo contiene la exploración y calidad de datos del datafra
 ### A/B_testing.ipynb:
 Este cuaderno de trabajo contiene la exploración y calidad de datos del dataframe futuro, adicional a que se plantea la evaluación del A/B testing y se presentan las metricas de los modelo; **En este cuaderno se responden las preguntas del literal 5 del taller**
 
+### Enlace Youtube verificación de API: https://youtu.be/EWZLyiynm6c
+
 Contacto: jv.chaparro@uniandes.edu.co, o.giraldor@uniandes.edu.co, da.alfonso2@uniandes.edu.co,am.martinezc123@unaindes.edu.co
